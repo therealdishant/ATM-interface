@@ -1,0 +1,69 @@
+import java.util.*;
+public class ATM_Transaction
+{
+    public static void main(String args[] )
+    { 
+	{
+		Scanner sc = new Scanner(System.in);
+		Int SM = 1254;
+		Int AD = 5264;
+		Int SH = 8456;
+		System.out.println(“1.SM-123456 2.AD-21500 3.SH-2160”)
+		Int choice = sc.nextInt();.
+		{ system.out.println("Enter Password")
+		    Int password =sc int()
+		    float current_balance = 2000
+		    if (password == SM)
+        system.out.println ("1 for withdraw 2 for deposit 3 for balance check choice one option");
+        Int option = SC.nextlnt();
+        switch(option)
+        {
+            Case 1:
+            system.out.printlnt("enter amount to withdraw");
+            
+        }
+        while(true)
+        {
+            System.out.println("Automated Teller Machine");
+            System.out.println("Choose 1 for Withdraw");
+            System.out.println("Choose 2 for Deposit");
+            System.out.println("Choose 3 for Check Balance");
+            System.out.println("Choose 4 for EXIT");
+            System.out.print("Choose the operation you want to perform:");
+            int n = s.nextInt();
+            switch(n)
+            {
+                case 1:
+                System.out.print("Enter money to be withdrawn:");
+                withdraw = s.nextInt();
+                if(balance >= withdraw)
+                {
+                    balance = balance - withdraw;
+                    System.out.println("Please collect your money");
+                }
+                else
+                {
+                    System.out.println("Insufficient Balance");
+                }
+                System.out.println("");
+                break;
+ 
+                case 2:
+                System.out.print("Enter money to be deposited:");
+                deposit = s.nextInt();
+                balance = balance + deposit;
+                System.out.println("Your Money has been successfully depsited");
+                System.out.println("");
+                break;
+ 
+                case 3:
+                System.out.println("Balance : "+balance);
+                System.out.println("");
+                break;
+ 
+                case 4:
+                System.exit(0);
+            }
+        }
+    }
+}
